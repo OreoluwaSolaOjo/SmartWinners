@@ -1,0 +1,46 @@
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.firstelement {
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+}
+
+.firstelement h6 {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.firstelement span {
+    color: var(--secondary-color);
+}
+
+.imagetext {
+    padding-top: 2%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.images h6 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0 !important;
+}
+
+.images img {
+    height: 12px;
+    width: 12px;
+}
+
+.socialscontainer {
+    padding-top: 1%;
+}

@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --main-color: #F30000;
+  --secondary-color: #0061A3;
+  --third-color: #F7D300;
+  --tertiary-color: #C7C7C7;
+  --fourth-color: #13902A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body_container {
+  margin: 0 2rem;
+}
+
+.min_body_container {
+  margin: 0 5rem;
+}
+
+@media screen and (max-width: 425px) {
+  .body_container {
+    margin: 0 1rem;
+  }
+}
+
+/* BUTTON STYLES */
+/* .inline_button {
+  border: none;
+  background: var(--button-color);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.inline_button:hover {
+  background: var(--button-hover);
+  box-shadow: 2px 2px 5px grey;
+}
+.inline_button:active {
+  background: var(--button-active);
+  transform: translateY(1px);
+}
+
+.inverted_button {
+  border: 1px solid var(--mid-color);
+  background: white;
+  border-radius: 5px;
+  color: var(--mid-color);
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.inverted_button:hover {
+  background: var(--button-color);
+  border: none;
+  color: white;
+  box-shadow: 2px 2px 5px grey;
+}
+.inverted_button:active {
+  background: var(--button-active);
+  transform: translateY(1px);
+} */

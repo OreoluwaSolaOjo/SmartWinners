@@ -1,0 +1,54 @@
+.rectangle {
+    margin-top: 2%;
+    height: 25px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    margin-bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.maincontainer {
+    padding: 0 !important;
+}
+
+.second {
+    width: 15%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.first div {
+    border-right: 0.1px solid white;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.7%;
+}
+
+.first h6 {
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: white;
+}
+
+.second {
+
+    padding-top: 0.7%;
+    text-align: center;
+}
+
+.second h6 {
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+
+    color: white;
+}

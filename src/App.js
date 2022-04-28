@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from 'react-bootstrap';
+import classes from './App.module.css'
+import BiggestLotteryWinners from './components/biggestlotterywinners';
+import Footer from './components/footer';
+import FrequentlyAskedQuestions from './components/frequentlyaskedquestion';
+import Header1 from './components/header1';
+import HeroImage from './components/heroimage';
+import Mainheader from './components/mainheader';
+import Playupcoming from './components/playupcoming';
+import UpcomingLotteryDraws from './components/upcominglotterydraws';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className={classes.container}>
+      <Header1 />
+      <Mainheader />
+      <HeroImage />
+      <UpcomingLotteryDraws />
+      <Playupcoming />
+      <BiggestLotteryWinners />
+      <FrequentlyAskedQuestions />
+      <Footer />
+    </Container>
   );
 }
 

@@ -1,0 +1,32 @@
+.main {
+    width: 66%;
+}
+
+.main h4 {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.maincontainer {
+    padding-top: 3%;
+}
+
+.faq {
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.faq img {
+    height: 12px;
+    width: 12px;
+}
+
+.faq h6 {
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 2%;
+}
